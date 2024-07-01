@@ -7,4 +7,4 @@ if [ $# -eq 0 ]; then
 fi
 
 # Run the Python script provided as an argument
-python "$@"
+python3 "$@"
