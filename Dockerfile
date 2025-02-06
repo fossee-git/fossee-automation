@@ -17,9 +17,6 @@ RUN apt-get update && apt-get install -y \
 # Upgrade pip to the latest version
 RUN python3 -m pip install --upgrade pip
 
-# Install Cython
-RUN pip install cython
-
 # Verify the installation of espeak, java, and Python
 RUN espeak --version && \
     java -version && \
