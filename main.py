@@ -1,1 +1,1 @@
-print("THis is a test python code")
+print("This is a test python code")
